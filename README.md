@@ -1,7 +1,7 @@
 ## Hi, I’m Panos 👋
 
-Founder @ **Givelink** 🚀  
-Building the future of giving through product, partnerships, and automation.
+Co-Founder @ **Givelink** 🚀  
+Building the future of giving.
 
 ---
 
