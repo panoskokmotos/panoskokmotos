@@ -51,11 +51,12 @@ I build **donation infrastructure** that scales nonprofit operations. My focus:
 - Built with TypeScript & React
 
 ### 🌌 Beginning of Infinity – Interactive Game
+- **Live**: https://beginning-of-infinity-game.vercel.app
 - Interactive game inspired by David Deutsch's *The Beginning of Infinity*
 - Explores ideas around knowledge, epistemology, and optimism through gameplay
-- Built as a web-based experience
 
 ### 🎮 Hobbies Game
+- **Live**: https://hobbies-game.vercel.app
 - A fun interactive web game built around personal hobbies and interests
 - Lightweight, fast, and engaging browser experience
 
