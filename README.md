@@ -45,13 +45,24 @@ I build **donation infrastructure** that scales nonprofit operations. My focus:
 - Nonprofit onboarding, donor management, and fulfillment partnerships
 - Scaling across US nonprofits with zero friction
 
+### 💰 Financial Genius – Financial Management App
+- **Live**: https://financialgenius.panoskokmotos.com
+- Full-featured personal finance management app with budgeting, expense tracking, and intelligent financial recommendations
+- Built with TypeScript & React
+
+### 🌌 Beginning of Infinity – Interactive Game
+- Interactive game inspired by David Deutsch's *The Beginning of Infinity*
+- Explores ideas around knowledge, epistemology, and optimism through gameplay
+- Built as a web-based experience
+
+### 🎮 Hobbies Game
+- A fun interactive web game built around personal hobbies and interests
+- Lightweight, fast, and engaging browser experience
+
 ### 💼 Admin Tools Suite
 - **Admin Deliveries** – Operations management for donation fulfillment
 - **Admin Design** – Design system and component library
 - **Admin Products Page** – Product catalog and inventory UI
-
-### 💰 Financial Genius Bot
-Intelligent financial recommendation engine (Private, TypeScript/React)
 
 ### 🌐 Personal Website
 Portfolio and personal branding site with analytics  
@@ -77,4 +88,4 @@ I'm always interested in connecting with builders in:
 
 ---
 
-**Last updated**: April 2026
+**Last updated**: May 2026
