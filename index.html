@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panos Kokmotos – Co-Founder @ Givelink</title>
+  <meta name="description" content="Panos Kokmotos is the Co-Founder of Givelink, building donation infrastructure that scales nonprofit operations across the US." />
+  <link rel="canonical" href="https://panoskokmotos.com/" />
+
+  <!-- =====================================================================
+       Structured Data – Person
+  ====================================================================== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Panos Kokmotos",
+    "url": "https://panoskokmotos.com",
+    "email": "panos@givelink.app",
+    "jobTitle": "Co-Founder",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Givelink",
+      "url": "https://givelink.app"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/panoskokmotos/",
+      "https://github.com/panoskokmotos"
+    ],
+    "knowsAbout": [
+      "Donation Infrastructure",
+      "TypeScript",
+      "React",
+      "n8n Automation",
+      "Nonprofit Operations"
+    ]
+  }
+  </script>
+
+  <!-- =====================================================================
+       Structured Data – FAQPage
+       FIX: single block, no duplicate property keys
+  ====================================================================== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What does Panos Kokmotos do?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Panos Kokmotos is the Co-Founder of Givelink, building donation infrastructure that scales nonprofit operations across the US. His focus spans partnerships, product development, operations, and AI implementation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is Givelink?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Givelink is a donation infrastructure platform that enables nonprofits to manage donor relationships, onboarding, and fulfillment partnerships at scale — with zero friction."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What technologies does Panos Kokmotos work with?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Panos works with TypeScript, React, JavaScript, Python, HTML/CSS, n8n, Vercel, GitHub, and Figma. He applies automation-first thinking and AI tools like IRIS for smart recommendations and internal decision support."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I contact Panos Kokmotos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can reach Panos via email at panos@givelink.app or connect on LinkedIn at linkedin.com/in/panoskokmotos/."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- =====================================================================
+       Structured Data – Event
+       FIX: added eventStatus, endDate, image, and address
+  ====================================================================== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Givelink Demo Day – Donation Infrastructure for Nonprofits",
+    "description": "Panos Kokmotos presents Givelink's latest donation infrastructure features for US nonprofits, covering donor management, onboarding automation, and fulfillment partnerships.",
+    "startDate": "2026-06-15T14:00:00+03:00",
+    "endDate": "2026-06-15T16:00:00+03:00",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+    "image": "https://panoskokmotos.com/images/givelink-demo-day.jpg",
+    "location": {
+      "@type": "Place",
+      "name": "Givelink HQ",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "",
+        "addressLocality": "Athens",
+        "addressRegion": "Attica",
+        "addressCountry": "GR"
+      }
+    },
+    "organizer": {
+      "@type": "Person",
+      "name": "Panos Kokmotos",
+      "url": "https://panoskokmotos.com"
+    },
+    "url": "https://panoskokmotos.com/events/demo-day-2026"
+  }
+  </script>
+
+  <!-- =====================================================================
+       Structured Data – VideoObject
+       FIX: uploadDate includes explicit timezone offset
+  ====================================================================== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": "Building Donation Infrastructure for Nonprofits – Panos Kokmotos",
+    "description": "Panos Kokmotos explains how Givelink transforms nonprofit operations through scalable, automation-first donation infrastructure.",
+    "thumbnailUrl": "https://panoskokmotos.com/images/video-thumbnail.jpg",
+    "uploadDate": "2026-01-15T10:00:00+02:00",
+    "duration": "PT10M30S",
+    "contentUrl": "https://panoskokmotos.com/videos/donation-infrastructure.mp4",
+    "embedUrl": "https://panoskokmotos.com/videos/embed/donation-infrastructure",
+    "author": {
+      "@type": "Person",
+      "name": "Panos Kokmotos",
+      "url": "https://panoskokmotos.com"
+    }
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0d0d0d;
+      --surface: #161616;
+      --border: #2a2a2a;
+      --accent: #ffffff;
+      --muted: #888;
+      --text: #e8e8e8;
+      --link: #a0c4ff;
+      --radius: 8px;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 900px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    header nav a {
+      margin-left: 1.5rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    header nav a:hover { color: var(--accent); }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    /* Hero */
+    .hero {
+      padding: 5rem 2rem 3rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .hero h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--accent);
+    }
+    .hero .role {
+      font-size: 1.1rem;
+      color: var(--muted);
+      margin-top: 0.5rem;
+    }
+    .hero .tagline {
+      margin-top: 1.5rem;
+      font-size: 1.15rem;
+      max-width: 580px;
+    }
+    .hero-links {
+      margin-top: 2rem;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.55rem 1.25rem;
+      border-radius: var(--radius);
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: opacity 0.15s;
+    }
+    .btn:hover { opacity: 0.8; text-decoration: none; }
+    .btn-primary { background: var(--accent); color: #000; }
+    .btn-ghost { border: 1px solid var(--border); color: var(--text); }
+
+    /* Sections */
+    section { padding: 4rem 2rem; max-width: 900px; margin: 0 auto; }
+    section + section { border-top: 1px solid var(--border); }
+
+    h2 {
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 1.5rem;
+      letter-spacing: -0.01em;
+    }
+
+    /* Focus areas */
+    .focus-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 1rem;
+    }
+    .focus-item {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem;
+    }
+    .focus-item strong { display: block; color: var(--accent); margin-bottom: 0.3rem; }
+    .focus-item span { font-size: 0.9rem; color: var(--muted); }
+
+    /* Stack */
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .tag {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 0.3rem 0.75rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    /* Projects */
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1rem;
+    }
+    .project-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+    }
+    .project-card h3 { color: var(--accent); margin-bottom: 0.5rem; font-size: 1rem; }
+    .project-card p { font-size: 0.9rem; color: var(--muted); line-height: 1.5; }
+    .project-card .project-link { display: inline-block; margin-top: 1rem; font-size: 0.85rem; }
+
+    /* FAQ */
+    .faq-list { display: flex; flex-direction: column; gap: 1.25rem; }
+    .faq-item { border-left: 2px solid var(--border); padding-left: 1.25rem; }
+    .faq-item dt { color: var(--accent); font-weight: 600; margin-bottom: 0.4rem; }
+    .faq-item dd { color: var(--muted); font-size: 0.95rem; }
+
+    /* Video */
+    .video-placeholder {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 3rem 2rem;
+      text-align: center;
+      color: var(--muted);
+    }
+    .video-placeholder strong { display: block; font-size: 1rem; color: var(--accent); margin-bottom: 0.5rem; }
+
+    /* Event */
+    .event-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      display: flex;
+      gap: 1.5rem;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+    .event-date {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 0.75rem 1rem;
+      text-align: center;
+      min-width: 60px;
+      flex-shrink: 0;
+    }
+    .event-date .month { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
+    .event-date .day { font-size: 1.8rem; font-weight: 700; color: var(--accent); line-height: 1; }
+    .event-info h3 { color: var(--accent); margin-bottom: 0.4rem; }
+    .event-info p { font-size: 0.9rem; color: var(--muted); }
+    .event-badge {
+      display: inline-block;
+      margin-top: 0.5rem;
+      background: #1a2e1a;
+      color: #4caf50;
+      border-radius: 4px;
+      padding: 0.2rem 0.6rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+
+    /* Contact */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    .contact-item {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+    }
+    .contact-item .label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .contact-item a { color: var(--text); font-size: 0.95rem; }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 2rem;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 2rem; }
+      header { flex-direction: column; align-items: flex-start; gap: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <span style="font-weight:700;color:var(--accent)">PK</span>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#events">Events</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <div class="hero">
+    <h1>Panos Kokmotos</h1>
+    <p class="role">Co-Founder @ <a href="https://givelink.app" target="_blank" rel="noopener">Givelink</a></p>
+    <p class="tagline">
+      Building donation infrastructure that scales nonprofit operations across the US —
+      talk to users, ship, measure, iterate.
+    </p>
+    <div class="hero-links">
+      <a class="btn btn-primary" href="https://givelink.app" target="_blank" rel="noopener">Givelink →</a>
+      <a class="btn btn-ghost" href="mailto:panos@givelink.app">Get in touch</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/panoskokmotos/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+
+  <!-- About -->
+  <section id="about" class="container">
+    <h2>What I Do</h2>
+    <div class="focus-list">
+      <div class="focus-item">
+        <strong>Partnerships &amp; BD</strong>
+        <span>Closing supplier and fulfillment partnerships</span>
+      </div>
+      <div class="focus-item">
+        <strong>Product</strong>
+        <span>Shipping fast iterations driven by user interviews &amp; analytics</span>
+      </div>
+      <div class="focus-item">
+        <strong>Operations</strong>
+        <span>Turning chaos into repeatable, scalable workflows</span>
+      </div>
+      <div class="focus-item">
+        <strong>Automation-First</strong>
+        <span>Using n8n, internal tools, and dashboards to eliminate manual work</span>
+      </div>
+      <div class="focus-item">
+        <strong>AI in Practice</strong>
+        <span>Implementing IRIS for smart recommendations and decision support</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Stack -->
+  <section class="container">
+    <h2>Tech Stack</h2>
+    <div class="tags">
+      <span class="tag">TypeScript</span>
+      <span class="tag">React</span>
+      <span class="tag">JavaScript</span>
+      <span class="tag">Python</span>
+      <span class="tag">HTML / CSS</span>
+      <span class="tag">n8n</span>
+      <span class="tag">Vercel</span>
+      <span class="tag">GitHub</span>
+      <span class="tag">Figma</span>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="container">
+    <h2>Featured Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>🎁 Givelink</h3>
+        <p>Donation infrastructure for US nonprofits — donor management, onboarding, and fulfillment partnerships at scale.</p>
+        <a class="project-link" href="https://givelink.app" target="_blank" rel="noopener">givelink.app →</a>
+      </div>
+      <div class="project-card">
+        <h3>💼 Admin Tools Suite</h3>
+        <p>Admin Deliveries (operations), Admin Design (component library), and Admin Products Page (catalog &amp; inventory UI).</p>
+      </div>
+      <div class="project-card">
+        <h3>💰 Financial Genius Bot</h3>
+        <p>Intelligent financial recommendation engine built with TypeScript and React. Private.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events -->
+  <section id="events" class="container">
+    <h2>Events</h2>
+    <div class="event-card">
+      <div class="event-date">
+        <div class="month">Jun</div>
+        <div class="day">15</div>
+      </div>
+      <div class="event-info">
+        <h3>Givelink Demo Day</h3>
+        <p>Athens, Greece &mdash; 14:00–16:00 EEST &mdash; In-person &amp; online</p>
+        <p style="margin-top:0.4rem;">Presenting Givelink's latest donation infrastructure features for US nonprofits.</p>
+        <span class="event-badge">Scheduled</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video -->
+  <section class="container">
+    <h2>Video</h2>
+    <div class="video-placeholder">
+      <strong>Building Donation Infrastructure for Nonprofits</strong>
+      How Givelink transforms nonprofit operations through automation-first donation infrastructure.
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="container">
+    <h2>FAQ</h2>
+    <dl class="faq-list">
+      <div class="faq-item">
+        <dt>What does Panos Kokmotos do?</dt>
+        <dd>Co-Founder of Givelink, building donation infrastructure that scales nonprofit operations across the US, with a focus on partnerships, product, operations, and AI.</dd>
+      </div>
+      <div class="faq-item">
+        <dt>What is Givelink?</dt>
+        <dd>Givelink is a donation infrastructure platform that helps nonprofits manage donor relationships, onboarding, and fulfillment partnerships at scale — with zero friction.</dd>
+      </div>
+      <div class="faq-item">
+        <dt>What technologies does Panos Kokmotos work with?</dt>
+        <dd>TypeScript, React, JavaScript, Python, n8n, Vercel, GitHub, and Figma — applying automation-first and AI-driven approaches.</dd>
+      </div>
+      <div class="faq-item">
+        <dt>How can I contact Panos Kokmotos?</dt>
+        <dd>Email <a href="mailto:panos@givelink.app">panos@givelink.app</a> or connect on <a href="https://www.linkedin.com/in/panoskokmotos/" target="_blank" rel="noopener">LinkedIn</a>.</dd>
+      </div>
+    </dl>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="container">
+    <h2>Let's Connect</h2>
+    <div class="contact-grid">
+      <div class="contact-item">
+        <span class="label">Email</span>
+        <a href="mailto:panos@givelink.app">panos@givelink.app</a>
+      </div>
+      <div class="contact-item">
+        <span class="label">LinkedIn</span>
+        <a href="https://www.linkedin.com/in/panoskokmotos/" target="_blank" rel="noopener">panoskokmotos</a>
+      </div>
+      <div class="contact-item">
+        <span class="label">GitHub</span>
+        <a href="https://github.com/panoskokmotos" target="_blank" rel="noopener">panoskokmotos</a>
+      </div>
+      <div class="contact-item">
+        <span class="label">Company</span>
+        <a href="https://givelink.app" target="_blank" rel="noopener">givelink.app</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2026 Panos Kokmotos &mdash; <a href="https://panoskokmotos.com">panoskokmotos.com</a>
+  </footer>
+
+</body>
+</html>
