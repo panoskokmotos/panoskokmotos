@@ -9,60 +9,171 @@
   <meta name="theme-color" content="#0d0d0d" />
 
   <!--
-    Security headers via <meta> — GitHub Pages cannot set HTTP response
-    headers, so meta equivalents are used where the spec allows it.
-    Cloudflare (or any reverse proxy) should layer real HTTP headers on
-    top for directives that meta ignores (frame-ancestors, HSTS, CORP).
+    ═══════════════════════════════════════════════════════════════════
+    SECURITY HEADERS
+    ═══════════════════════════════════════════════════════════════════
+    GitHub Pages cannot set HTTP response headers, so <meta http-equiv>
+    and <meta name> equivalents are used where the spec allows them.
 
-    CSP improvements over previous version:
-      script-src 'none'  — no executable JS on this page at all.
-                           <script type="application/ld+json"> blocks are
-                           data (not JS MIME type) so they are unaffected.
-      style-src 'self'   — CSS is now an external file; 'unsafe-inline'
-                           is completely removed.
-      upgrade-insecure-requests — browser upgrades any http:// sub-resource
-                           to https:// automatically.
+    For headers that meta cannot set (frame-ancestors, HSTS, CORP) a
+    Cloudflare Transform Rule is the right fix — see comments below.
+    ═══════════════════════════════════════════════════════════════════
+  -->
+
+  <!--
+    Content-Security-Policy
+    ───────────────────────
+    This is the most powerful defence: it tells the browser which
+    origins are allowed to supply each type of resource.
+
+    script-src 'none'
+      No executable JavaScript exists on this page.
+      <script type="application/ld+json"> is a data block, not a JS
+      MIME type, so it is unaffected by script-src.
+
+    style-src 'self'
+      CSS lives in style.css (same origin). 'unsafe-inline' is gone.
+      An injected style="…" attribute can no longer exfiltrate data
+      via CSS timing / paint-worklet side-channels.
+
+    img-src 'self' …
+      Only the two badge CDNs used in the README are allowed.
+      data: URIs are intentionally excluded.
+
+    upgrade-insecure-requests
+      Any stray http:// sub-resource reference is silently upgraded
+      to https:// by the browser before the network request is made.
+
+    Cloudflare Transform Rule to add on top:
+      Content-Security-Policy: frame-ancestors 'none'
+      (frame-ancestors is ignored in <meta> by spec)
   -->
   <meta http-equiv="Content-Security-Policy"
         content="default-src 'none';
                  script-src 'none';
                  style-src 'self';
-                 img-src 'self' https://github-readme-stats.vercel.app https://img.shields.io;
+                 img-src 'self'
+                         https://github-readme-stats.vercel.app
+                         https://img.shields.io;
                  connect-src 'none';
                  font-src 'none';
                  frame-src 'none';
                  object-src 'none';
+                 media-src 'none';
+                 worker-src 'none';
+                 manifest-src 'none';
                  base-uri 'self';
                  form-action 'none';
                  upgrade-insecure-requests;" />
 
-  <!-- Prevent MIME-type sniffing attacks -->
+  <!--
+    Prevent MIME-type sniffing
+    Works fully only as an HTTP response header; kept here as a
+    belt-and-suspenders hint for browsers that honour it via meta.
+    Add via Cloudflare: X-Content-Type-Options: nosniff
+  -->
   <meta http-equiv="X-Content-Type-Options" content="nosniff" />
 
-  <!-- Stop referrer URL leaking to third-party sites -->
+  <!--
+    Referrer policy
+    Stops the full URL (including paths and query strings) from leaking
+    to external sites when a visitor follows a link off this page.
+  -->
   <meta name="referrer" content="strict-origin-when-cross-origin" />
 
-  <!-- Disable browser features this page never uses -->
-  <meta http-equiv="Permissions-Policy"
-        content="camera=(),
-                 microphone=(),
-                 geolocation=(),
-                 payment=(),
-                 usb=(),
-                 interest-cohort=(),
-                 browsing-topics=(),
-                 join-ad-interest-group=(),
-                 run-ad-auction=()" />
+  <!--
+    Permissions-Policy (formerly Feature-Policy)
+    ────────────────────────────────────────────
+    Explicitly disables every browser API this page does not need.
+    Prevents malicious injections from silently accessing sensors,
+    cameras, payment APIs, advertising fingerprinting APIs, etc.
 
-  <!-- Legacy XSS filter for older browsers (CSP is the modern replacement) -->
+    Each entry is: feature=()  →  disallow for all origins.
+
+    Groups:
+      Sensors          – accelerometer, gyroscope, magnetometer, …
+      AV               – camera, microphone, display-capture, …
+      Location         – geolocation
+      Payments         – payment, identity-credentials-get
+      Hardware         – usb, serial, hid, bluetooth, midi, …
+      Privacy          – interest-cohort, browsing-topics, …
+      Ads / Privacy    – join-ad-interest-group, run-ad-auction, …
+      Misc             – fullscreen, picture-in-picture, web-share, …
+  -->
+  <meta http-equiv="Permissions-Policy"
+        content="accelerometer=(),
+                 ambient-light-sensor=(),
+                 autoplay=(),
+                 battery=(),
+                 bluetooth=(),
+                 browsing-topics=(),
+                 camera=(),
+                 display-capture=(),
+                 document-domain=(),
+                 encrypted-media=(),
+                 fullscreen=(),
+                 gamepad=(),
+                 geolocation=(),
+                 gyroscope=(),
+                 hid=(),
+                 identity-credentials-get=(),
+                 idle-detection=(),
+                 interest-cohort=(),
+                 join-ad-interest-group=(),
+                 keyboard-map=(),
+                 local-fonts=(),
+                 magnetometer=(),
+                 microphone=(),
+                 midi=(),
+                 otp-credentials=(),
+                 payment=(),
+                 picture-in-picture=(),
+                 publickey-credentials-create=(),
+                 publickey-credentials-get=(),
+                 run-ad-auction=(),
+                 screen-wake-lock=(),
+                 serial=(),
+                 speaker-selection=(),
+                 storage-access=(),
+                 usb=(),
+                 web-share=(),
+                 window-management=(),
+                 xr-spatial-tracking=()" />
+
+  <!--
+    Legacy XSS filter (IE / old Edge)
+    Modern browsers rely on CSP; kept for coverage of very old UAs.
+  -->
   <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
 
-  <!-- Prevent cross-origin isolation leaks -->
-  <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin" />
+  <!--
+    Disable DNS prefetching
+    Browsers speculatively resolve every hostname they find in href/src
+    attributes before the user clicks. Disabling this stops leaking
+    which third-party domains the page references to network observers.
+  -->
+  <meta http-equiv="x-dns-prefetch-control" content="off" />
 
-  <link rel="stylesheet" href="style.css" />
+  <!--
+    iOS / Android format detection
+    Mobile browsers auto-detect phone numbers, addresses, dates, and
+    email addresses and convert them to tappable links. This can be
+    abused to construct phishing-style tap targets from arbitrary text.
+  -->
+  <meta name="format-detection"
+        content="telephone=no, date=no, address=no, email=no, url=no" />
 
-  <!-- ===== Structured Data — Person ===== -->
+  <!--
+    Robots
+    Explicitly declare indexing intent so no crawler can claim ambiguity.
+  -->
+  <meta name="robots" content="index, follow" />
+
+  <link rel="stylesheet" href="style.css" type="text/css" />
+
+  <!-- ═══ Structured Data ═══════════════════════════════════════════ -->
+
+  <!-- Person -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -90,7 +201,7 @@
   }
   </script>
 
-  <!-- ===== Structured Data — FAQPage (single block, no duplicate keys) ===== -->
+  <!-- FAQPage — single block, no duplicate property keys -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -132,7 +243,7 @@
   }
   </script>
 
-  <!-- ===== Structured Data — Event (eventStatus, endDate, image, address all present) ===== -->
+  <!-- Event — eventStatus, endDate, image, address all present -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -164,7 +275,7 @@
   }
   </script>
 
-  <!-- ===== Structured Data — VideoObject (uploadDate with timezone offset) ===== -->
+  <!-- VideoObject — uploadDate with explicit timezone offset -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",

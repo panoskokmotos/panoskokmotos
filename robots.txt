@@ -1,0 +1,11 @@
+# robots.txt — panoskokmotos.com
+# https://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Allow: /
+Allow: /.well-known/security.txt
+
+# Prevent crawling of git metadata if accidentally exposed
+Disallow: /.git/
+
+Sitemap: https://panoskokmotos.com/sitemap.xml
