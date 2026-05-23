@@ -7,6 +7,27 @@
   <meta name="description" content="Panos Kokmotos is the Co-Founder of Givelink, building donation infrastructure that scales nonprofit operations across the US." />
   <link rel="canonical" href="https://panoskokmotos.com/" />
 
+  <!-- Security headers via meta (GitHub Pages can't set HTTP headers directly) -->
+  <!-- CSP: only load resources from same origin + trusted CDNs; no inline scripts
+       except the structured-data blocks below (hash-based allowlist not feasible
+       via meta, so 'unsafe-inline' is scoped to scripts only here) -->
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'none';
+                 script-src 'unsafe-inline';
+                 style-src 'unsafe-inline';
+                 img-src 'self' https://github-readme-stats.vercel.app https://img.shields.io;
+                 connect-src 'none';
+                 font-src 'none';
+                 frame-src 'none';
+                 object-src 'none';
+                 base-uri 'self';
+                 form-action 'none';" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta http-equiv="Permissions-Policy"
+        content="camera=(), microphone=(), geolocation=(), payment=(),
+                 usb=(), interest-cohort=()" />
+
   <!-- =====================================================================
        Structured Data – Person
   ====================================================================== -->
@@ -389,15 +410,15 @@
   <!-- Hero -->
   <div class="hero">
     <h1>Panos Kokmotos</h1>
-    <p class="role">Co-Founder @ <a href="https://givelink.app" target="_blank" rel="noopener">Givelink</a></p>
+    <p class="role">Co-Founder @ <a href="https://givelink.app" target="_blank" rel="noopener noreferrer">Givelink</a></p>
     <p class="tagline">
       Building donation infrastructure that scales nonprofit operations across the US —
       talk to users, ship, measure, iterate.
     </p>
     <div class="hero-links">
-      <a class="btn btn-primary" href="https://givelink.app" target="_blank" rel="noopener">Givelink →</a>
+      <a class="btn btn-primary" href="https://givelink.app" target="_blank" rel="noopener noreferrer">Givelink →</a>
       <a class="btn btn-ghost" href="mailto:panos@givelink.app">Get in touch</a>
-      <a class="btn btn-ghost" href="https://www.linkedin.com/in/panoskokmotos/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/panoskokmotos/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     </div>
   </div>
 
@@ -451,7 +472,7 @@
       <div class="project-card">
         <h3>🎁 Givelink</h3>
         <p>Donation infrastructure for US nonprofits — donor management, onboarding, and fulfillment partnerships at scale.</p>
-        <a class="project-link" href="https://givelink.app" target="_blank" rel="noopener">givelink.app →</a>
+        <a class="project-link" href="https://givelink.app" target="_blank" rel="noopener noreferrer">givelink.app →</a>
       </div>
       <div class="project-card">
         <h3>💼 Admin Tools Suite</h3>
@@ -508,7 +529,7 @@
       </div>
       <div class="faq-item">
         <dt>How can I contact Panos Kokmotos?</dt>
-        <dd>Email <a href="mailto:panos@givelink.app">panos@givelink.app</a> or connect on <a href="https://www.linkedin.com/in/panoskokmotos/" target="_blank" rel="noopener">LinkedIn</a>.</dd>
+        <dd>Email <a href="mailto:panos@givelink.app">panos@givelink.app</a> or connect on <a href="https://www.linkedin.com/in/panoskokmotos/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</dd>
       </div>
     </dl>
   </section>
@@ -523,15 +544,15 @@
       </div>
       <div class="contact-item">
         <span class="label">LinkedIn</span>
-        <a href="https://www.linkedin.com/in/panoskokmotos/" target="_blank" rel="noopener">panoskokmotos</a>
+        <a href="https://www.linkedin.com/in/panoskokmotos/" target="_blank" rel="noopener noreferrer">panoskokmotos</a>
       </div>
       <div class="contact-item">
         <span class="label">GitHub</span>
-        <a href="https://github.com/panoskokmotos" target="_blank" rel="noopener">panoskokmotos</a>
+        <a href="https://github.com/panoskokmotos" target="_blank" rel="noopener noreferrer">panoskokmotos</a>
       </div>
       <div class="contact-item">
         <span class="label">Company</span>
-        <a href="https://givelink.app" target="_blank" rel="noopener">givelink.app</a>
+        <a href="https://givelink.app" target="_blank" rel="noopener noreferrer">givelink.app</a>
       </div>
     </div>
   </section>
