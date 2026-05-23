@@ -219,6 +219,15 @@ footer {
   margin: 0 auto;
 }
 
+/* 404 page */
+.error-code {
+  font-size: 5rem;
+  opacity: 0.15;
+}
+.error-role {
+  margin-top: 1rem;
+}
+
 @media (max-width: 600px) {
   .hero h1 { font-size: 2rem; }
   header { flex-direction: column; align-items: flex-start; gap: 1rem; }
