@@ -44,6 +44,23 @@ I build **donation infrastructure** that scales nonprofit operations. My focus:
 - **Live**: https://givelink.app
 - Nonprofit onboarding, donor management, and fulfillment partnerships
 - Scaling across US nonprofits with zero friction
+- **Recent Updates**: North Star Pace Engine, AI Workflows Hub, Supabase cloud sync with auto-snapshots
+
+### 📱 Task Management OS – Personal Productivity System
+- **Status**: Active development
+- Full-featured offline-first task management app (150+ commits)
+- Recent features: Mobile-first UX polish, world-class navigation redesign (40 views), AI-powered daily picks, command palette with ⌘K
+- Gamification: XP system, badges, quests, habit tracking with Hebb's Law routines
+- Advanced: Wheel of Life, OKRs, North Star metrics, Givelink integration
+- **Tech**: Vanilla JS, PWA, Service Workers, Supabase integration
+
+### 🎮 Polymath – Hobbies Matching App  
+- **Live**: https://hobbies-match.app
+- Tinder-for-interests discovery app connecting people by hobbies
+- **Recent features**: Avatar picker, magic link auth, in-app chat, profile editing, gamification badges, web push notifications
+- AI-powered "Why We Match" explanations using Claude
+- Google/Apple OAuth, Butterbase backend
+- **Tech**: React 18, Tailwind CSS, Claude API, Butterbase
 
 ### 💼 Admin Tools Suite
 - **Admin Deliveries** – Operations management for donation fulfillment
@@ -77,4 +94,4 @@ I'm always interested in connecting with builders in:
 
 ---
 
-**Last updated**: April 2026
+**Last updated**: June 2026
