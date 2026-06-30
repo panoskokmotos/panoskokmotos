@@ -16,6 +16,7 @@ I build **donation infrastructure** that scales nonprofit operations. My focus:
 - **Operations**: Turning chaos into repeatable, scalable workflows ⚙️
 - **Automation-First**: Using n8n, internal tools, and dashboards to eliminate manual work
 - **AI in Practice**: Implementing IRIS for smart recommendations and internal decision support 🤖
+- **Exploration & Learning**: Building educational tools and epistemology games exploring how knowledge works
 
 **Philosophy**: Talk to users → Ship → Measure → Iterate. No speculation. Bias toward action. Always.
 
@@ -28,6 +29,7 @@ I build **donation infrastructure** that scales nonprofit operations. My focus:
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextjs&logoColor=white)
 ![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-E34C26?style=flat-square&logo=html5&logoColor=white)
 
 **Tools & Platforms:**  
@@ -35,44 +37,105 @@ I build **donation infrastructure** that scales nonprofit operations. My focus:
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Claude AI](https://img.shields.io/badge/Claude%20AI-000000?style=flat-square&logo=openai&logoColor=white)
 
 ---
 
-## 📌 Featured Projects
+## 📌 Projects & Why They Matter
 
-### 🎁 Givelink – Donation Infrastructure
+### 🎁 **Givelink – Donation Infrastructure** 
+**Why it matters**: Nonprofits lack modern donation infrastructure. Givelink removes friction in giving.
 - **Live**: https://givelink.app
 - Nonprofit onboarding, donor management, and fulfillment partnerships
 - Scaling across US nonprofits with zero friction
-- **Recent Updates**: North Star Pace Engine, AI Workflows Hub, Supabase cloud sync with auto-snapshots
+- **Recent Updates**: North Star Pace Engine (real-time metric tracking), AI Workflows Hub (smart task generation), Supabase cloud sync with auto-snapshots
 
-### 📱 Task Management OS – Personal Productivity System
-- **Status**: Active development
-- Full-featured offline-first task management app (150+ commits)
-- Recent features: Mobile-first UX polish, world-class navigation redesign (40 views), AI-powered daily picks, command palette with ⌘K
-- Gamification: XP system, badges, quests, habit tracking with Hebb's Law routines
-- Advanced: Wheel of Life, OKRs, North Star metrics, Givelink integration
-- **Tech**: Vanilla JS, PWA, Service Workers, Supabase integration
+### 📱 **Task Management OS – Personal Productivity System**
+**Why it matters**: Building my own operating system for life. 150+ commits of relentless iteration on the perfect productivity tool.
+- Full-featured offline-first task management app
+- **Architecture**: Vanilla JS PWA with Service Workers, localStorage, Supabase integration
+- **Scale**: 40+ views, 100+ features, gamification system (XP, badges, quests)
+- **Recent features**: 
+  - Mobile-first UX polish with world-class navigation redesign
+  - AI-powered daily picks scoring algorithm
+  - Command palette (⌘K) with natural language commands
+  - North Star Pace Engine for metric tracking & forecasting
+  - Wheel of Life, OKRs, biometric tracking, goal momentum
+- **Why**: It's my thesis on what a human operating system should be—capturing the intersection of productivity, AI, gamification, and life tracking
 
-### 🎮 Polymath – Hobbies Matching App  
-- **Live**: https://hobbies-match.app
-- Tinder-for-interests discovery app connecting people by hobbies
-- **Recent features**: Avatar picker, magic link auth, in-app chat, profile editing, gamification badges, web push notifications
-- AI-powered "Why We Match" explanations using Claude
-- Google/Apple OAuth, Butterbase backend
-- **Tech**: React 18, Tailwind CSS, Claude API, Butterbase
+### 🎮 **Polymath – Hobbies Matching App**
+**Why it matters**: Self-discovery meets network effects. Finding your people through shared passions.
+- **Live**: https://hobbies-match.app (Live since May 2026)
+- Tinder-for-interests app connecting people by 50+ hobbies
+- **Architecture**: React 18 + Tailwind CSS + Butterbase backend
+- **P0 Features**: Swipe mechanics, archetype reveal, real-time matching, in-app chat
+- **P1 Features**: 
+  - Avatar picker & magic link auth
+  - In-app ChatScreen with icebreakers
+  - Gamification badges (7 milestone badges)
+  - Web push notifications
+  - AI "Why We Match" explanations (Claude Sonnet)
+  - Discover filters with min-compat slider
+- **Recent**: P0+P1 complete, social signup flow, admirer mechanic
+- **Why**: Exploring how AI personalization + viral mechanics can build communities around authentic interests
 
-### 💼 Admin Tools Suite
+### 🧠 **The Crucible – Epistemology Game**
+**Why it matters**: Building a game where you defend ideas against an AI interlocutor. Philosophy meets interactive entertainment.
+- **Status**: MVP complete
+- **Next.js 14** web app playing with Deutschian epistemology
+- Debate 4 rounds of real-world phenomena against Claude Sonnet AI
+- Final round scores: Explanatory Reach, Falsifiability, Resilience
+- 8 phenomena (stellar scintillation, Mpemba effect, Cambrian explosion, etc.)
+- SSE streaming API for live responses
+- **Why**: An exploration of how AI can make critical thinking tangible and fun
+
+### 📖 **Being Genuinely Useful in an AI World – Interactive Ebook**
+**Why it matters**: Making sense of how to stay valuable as AI evolves. Educational content that's actually engaging.
+- **Live**: https://being-genuinely-useful.vercel.app
+- Interactive digital ebook with 10 chapters + 7 wisdom interstitials
+- **Design**: Book cover, part dividers, sticky sidebar navigation, scroll animations
+- **Content**: Infused with 12 great thinkers (Feynman, Popper, Goodhart, Hayek, Shannon, Ostrom, Hamming, Bush, Polanyi, etc.)
+- **Features**: 
+  - Audiobook & PDF generation
+  - Chapter navigation & key takeaways
+  - Shareable content cards
+  - Email course distribution
+  - Passive income strategy guide
+- **Why**: Helping builders and creators think clearly about adding real value in an AI-first world
+
+### 💼 **Givelink Documentation Hub**
+**Why it matters**: Developer experience matters. Clear docs = faster adoption = nonprofit scale.
+- Official integration guide for Givelink Donation Widget
+- Platform-specific guides (WordPress, Squarespace, Wix, custom)
+- Troubleshooting, best practices, mobile optimization
+- No-code setup for nonprofits
+- **Why**: Removing barriers to nonprofit access of modern donation infra
+
+### 💰 **Admin Tools Suite**
+**Why it matters**: Internal tooling that scales operations.
 - **Admin Deliveries** – Operations management for donation fulfillment
 - **Admin Design** – Design system and component library
 - **Admin Products Page** – Product catalog and inventory UI
 
-### 💰 Financial Genius Bot
-Intelligent financial recommendation engine (Private, TypeScript/React)
-
-### 🌐 Personal Website
-Portfolio and personal branding site with analytics  
+### 🌐 **Personal Website & Portfolio**
 **Live**: https://panoskokmotos.com
+Personal branding + case studies
+
+---
+
+## 🧭 Career Thesis
+
+I'm building three **interconnected** things:
+
+1. **Givelink** – Fixing nonprofit infrastructure (market impact)
+2. **Task Management OS** – Perfecting human productivity (personal research)
+3. **Polymath + Crucible + Being Genuinely Useful** – Exploring AI, meaning, and human value (intellectual exploration)
+
+Together, they represent:
+- **Product excellence** (shipping at speed)
+- **Technical depth** (500+ commits, full-stack)
+- **Creative vision** (games, ebooks, epistemology)
+- **First-principles thinking** (why things matter)
 
 ---
 
@@ -89,6 +152,8 @@ I'm always interested in connecting with builders in:
 - **FinTech** – Payment infrastructure, donor management, financial products
 - **AI/ML** – Practical applications in nonprofits, operations, decision support
 - **Social Impact** – Scaling nonprofits, giving infrastructure, social enterprises
+- **Epistemology & Education** – How knowledge works, interactive learning
+- **Productivity & Tools** – Human operating systems, life OS, personal infrastructure
 
 **Reach out**: [panos@givelink.app](mailto:panos@givelink.app) or [LinkedIn](https://www.linkedin.com/in/panoskokmotos/)
 
