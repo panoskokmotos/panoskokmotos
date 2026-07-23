@@ -156,6 +156,40 @@ read_time: <N> min (~<word count> words)
 Then, in chat (not in the file), give him a 2–3 line editor's note: the spine you
 found, anything you cut or flagged, and one honest suggestion for making it stronger.
 
+## The X pack (produce one for every essay)
+
+X is where Panos's crowd (progress studies, epistemology, build-in-public,
+AI-and-meaning) actually argues these ideas out, so every essay gets a companion
+**X pack** to use as distribution. The essay is the anchor; X is the funnel that
+drives readers back to it. Repurpose the essay, don't write new material from
+scratch. Lift the sharpest lines straight from the draft.
+
+Stage it as a sibling file next to the draft:
+`substack/drafts/<yyyy-mm-dd>-<slug>-x-pack.md`.
+
+Constraints, so it reads native rather than like recycled blog copy:
+
+- **Dash-free**, same as everything else (his hard rule).
+- **No hashtags.** They read as spam now. A link at the end of the thread is enough.
+- **Target ~280 characters** per post and per thread tweet (the native, safe
+  default). Note the rough character count after each in a comment so he can eyeball
+  fit. If he says he wants longer premium-length posts, relax this.
+- **His voice**, not breathless launch-speak. Same guardrails as the essay.
+
+Produce three parts:
+
+1. **One thread** (usually 6–9 tweets). Tweet 1 is the hook and must stand alone;
+   the last tweet lands the idea and links to the full essay with a soft subscribe
+   nudge. Number them `1/`, `2/`, etc.
+2. **2–3 standalone posts.** Each works with zero thread context, pulled from a
+   single strong beat of the essay. These get dripped over the days after publishing.
+3. **1–2 quote-posts.** The punchiest one-liners (often the same lines flagged as
+   pull-quotes), sized to be quote-tweeted or posted bare.
+
+Suggest a simple cadence in the file: publish the Substack essay first, then drip
+the thread and standalone posts over the following days so one idea gets several
+at-bats, each pointing home.
+
 ## Where drafts go
 
 Stage each piece as a Markdown file in the repo:
