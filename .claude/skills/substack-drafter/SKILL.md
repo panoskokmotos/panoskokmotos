@@ -148,6 +148,12 @@ thing to automation Substack allows, since it has no public publishing API.
 
 ## Voice guardrails
 
+- **Never use dashes as punctuation.** This is a hard rule from Panos. No em dashes
+  (—) and no en dashes (–) standing in for a pause, aside, or break. Use a comma, a
+  colon, a period, or split into a short new paragraph instead. (Hyphens inside
+  genuine compound words like "well-posed" or "first-principles" are fine, those
+  aren't dashed pauses.) When you feel the urge to reach for a dash, that's usually
+  a signal the sentence wants to become two.
 - **Be honest, not preachy.** He's earned his views by building; let the writing
   show the work rather than lecture.
 - **Cut the LinkedIn tics:** no "Here's the thing," no "Let that sink in," no
