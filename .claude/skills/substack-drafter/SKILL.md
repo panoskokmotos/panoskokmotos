@@ -124,7 +124,7 @@ read_time: <N> min (~<word count> words)
 
 ---
 
-<!-- ↓↓↓ Paste everything below this line into Substack ↓↓↓ -->
+<!-- PASTE EVERYTHING BELOW THIS LINE INTO SUBSTACK -->
 
 <the essay body in clean Markdown, no H1 — the title goes in Substack's title field>
 

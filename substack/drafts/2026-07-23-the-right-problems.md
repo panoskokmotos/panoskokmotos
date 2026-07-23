@@ -17,7 +17,7 @@ read_time: 4 min (~830 words)
 
 ---
 
-<!-- ↓↓↓ Paste everything below this line into Substack ↓↓↓ -->
+<!-- PASTE EVERYTHING BELOW THIS LINE INTO SUBSTACK -->
 
 Ask people to picture the world after AGI and most of them describe the same thing: a place where the problems are finally over. Disease cured. Scarcity solved. Work optional. The long human project of struggling against the universe, complete.
 
