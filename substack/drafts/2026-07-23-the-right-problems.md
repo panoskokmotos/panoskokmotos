@@ -2,6 +2,7 @@
 status: draft
 created: 2026-07-23
 read_time: 4 min (~830 words)
+tags: [AI, Meaning, Epistemology, Progress]
 ---
 
 # TITLE OPTIONS
@@ -20,8 +21,33 @@ read_time: 4 min (~830 words)
 <!-- PASTE EVERYTHING BELOW THIS LINE INTO SUBSTACK -->
 
 <!-- [IMAGE · HEADER]: set in Substack's cover-image slot (above the title, not pasted here).
-     Evocative + moody: a horizon/frontier, a compass, or a lone figure climbing.
-     This is what shows in the email preview and social share, so it matters most. -->
+     This is what shows in the email preview and social share, so it matters most.
+
+     NANO BANANA PRO PROMPT (primary):
+     "Editorial cinematic photo-illustration, 3:2 aspect ratio, 4K. A single small
+     human silhouette stands on a dark rocky ridge in the lower-right third, seen
+     from behind, facing an immense landscape of overlapping mountain ranges that
+     recede in layered silhouettes into soft morning mist. Each successive ridgeline
+     is a new frontier, lighter and fainter than the last, suggesting an endless
+     progression of peaks. Warm low dawn light rakes across from the right; deep
+     indigo shadows in the valleys shift to amber and pale gold near the horizon.
+     Contemplative, hopeful, vast but not lonely. Keep the upper-left area open as
+     clean negative space. Muted, sophisticated palette: indigo, slate blue, warm
+     amber, soft cream. Fine atmospheric haze, subtle film grain, gentle depth of
+     field. No text, no letters, no logos, no watermark, no visible faces, no busy
+     foreground clutter."
+
+     VARIATION (abstract / compass motif):
+     "Minimalist conceptual illustration, 3:2, 4K. A faint antique compass rose
+     dissolves into topographic contour lines of endless mountains, the needle
+     pointing toward a distant glowing ridge on the horizon. Warm dawn gradient from
+     deep indigo at top to amber near the horizon. Editorial, lots of breathing room,
+     muted sophisticated palette. No text, no watermark."
+
+     Settings: ask for 3:2 (Substack cover shape) and 4K. Keep it text-free, the
+     title is set separately in Substack. If you want a titled variant, Nano Banana
+     Pro renders text well, so add: 'with the title "The Right Problems" in a small,
+     elegant serif in the lower-left, high contrast against the sky.' -->
 
 Ask people to picture the world after AGI and most of them describe the same thing: a place where the problems are finally over. Disease cured. Scarcity solved. Work optional. The long human project of struggling against the universe, complete.
 

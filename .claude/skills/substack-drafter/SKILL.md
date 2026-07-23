@@ -122,6 +122,35 @@ overdo it: aim for roughly one image every 250–300 words.
   with its paragraph, kept visually smaller than Subscribe so it doesn't compete
   with the primary goal (usually subscribers).
 
+## Tags
+
+Suggest 3–5 tags per post and put them in the frontmatter as
+`tags: [Tag1, Tag2, Tag3]`. Substack rewards a small, reusable set that compounds
+across the archive, not a fresh pile each time, so anchor on Panos's core columns
+and reuse them: **Meaning, AI, Epistemology**, adding **Progress** or **Building**
+when the piece fits. Keep tags at the *theme* level, not the *topic* level: "AI"
+and "Meaning," never "AGI," "utopia," or "David Deutsch." Granular tags fragment
+the archive and rarely aid discovery.
+
+## Header image prompt (Nano Banana Pro)
+
+Panos generates header art with Nano Banana Pro (Google's Gemini 3 Pro Image). It
+rewards long, specific, descriptive prompts and honors aspect ratios well, so for
+every essay write a ready-to-paste prompt inside the `[IMAGE · HEADER]` marker.
+Include, in plain prose (not a keyword salad):
+
+- **Subject and composition** tied to the essay's spine, with a clear focal point
+  and where it sits in frame.
+- **A deliberate negative-space area** for a possible title overlay.
+- **Light and palette**, kept muted and sophisticated over saturated or clip-arty.
+- **Medium/style** (e.g. "editorial cinematic photo-illustration"), **3:2 aspect
+  ratio** (Substack cover shape), and **4K**.
+- **What to exclude**: "no text, no watermark, no logos, no visible faces, no
+  clutter." (Nano Banana Pro renders text well, so offer an optional titled variant
+  as an add-on line rather than the default.)
+
+Offer one primary prompt plus a more abstract/conceptual variation, so he can pick.
+
 ## Output format
 
 Produce the staged file with this exact layout so it's consistent and scannable:
