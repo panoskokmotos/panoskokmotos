@@ -16,6 +16,20 @@ tags: [AI, Meaning, Epistemology, Progress]
 > Problems aren't the loading screen. They're the game.
 > Meaning doesn't come from solving problems. It comes from having the right ones.
 
+# SUBSTACK NOTES
+(Post natively in the Substack app. Substack down-ranks pure link-drops, so lead
+with the idea; the link is secondary. Post the launch note when the essay goes
+live, then drip the standalone notes over the next few days.)
+
+**Launch note** (teaser + link)
+Everyone pictures the world after AGI as the moment problems finally end. I think that's the wrong dream. The best world isn't the one that runs out of problems, it's the one that never runs out of the right ones. New essay: [ESSAY LINK]
+
+**Standalone note** (a question, no link, to seed replies)
+A question I keep chewing on: if AI eventually solves almost everything, what's left to give life meaning? My current answer is having the right problems to solve. The solving was never the point. The choosing was.
+
+**Standalone note** (build-in-public angle)
+I started building Compass because the hard part was never solving problems. It was figuring out which ones were worth solving in the first place. That's the part I don't think gets automated away.
+
 ---
 
 <!-- PASTE EVERYTHING BELOW THIS LINE INTO SUBSTACK -->

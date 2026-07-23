@@ -185,6 +185,27 @@ read_time: <N> min (~<word count> words)
 Then, in chat (not in the file), give him a 2–3 line editor's note: the spine you
 found, anything you cut or flagged, and one honest suggestion for making it stronger.
 
+## Substack Notes (produce 2–3 for every essay)
+
+Notes is Substack's native short-form feed, and the algorithm favors native text
+over plain link-drops, so a good note leads with the idea and treats the essay link
+as secondary. Include a `# SUBSTACK NOTES` block in the draft's furniture area
+(above the paste line, since notes are posted in the Substack app, not pasted into
+the essay). Note that these are staged text for Panos to post himself: no Substack
+API exists, so nothing here can be auto-published.
+
+Produce:
+
+- **One launch note**: a tight teaser in his voice that leads with the hook, ending
+  with `[ESSAY LINK]`. Posted when the essay goes live.
+- **1–2 standalone notes**: an idea or a genuine question that stands on its own with
+  no link, to seed replies and reach people who don't click. One of these can take a
+  personal or build-in-public angle when the essay touches something he's building.
+
+Keep them dash-free and conversational, a notch more casual than the essay. Suggest
+a simple cadence: launch note at publish, then drip the standalone notes over the
+following days.
+
 ## The X pack (produce one for every essay)
 
 X is where Panos's crowd (progress studies, epistemology, build-in-public,
