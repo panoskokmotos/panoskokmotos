@@ -19,6 +19,10 @@ read_time: 4 min (~830 words)
 
 <!-- PASTE EVERYTHING BELOW THIS LINE INTO SUBSTACK -->
 
+<!-- [IMAGE · HEADER]: set in Substack's cover-image slot (above the title, not pasted here).
+     Evocative + moody: a horizon/frontier, a compass, or a lone figure climbing.
+     This is what shows in the email preview and social share, so it matters most. -->
+
 Ask people to picture the world after AGI and most of them describe the same thing: a place where the problems are finally over. Disease cured. Scarcity solved. Work optional. The long human project of struggling against the universe, complete.
 
 Utopia.
@@ -28,6 +32,10 @@ I don't think that's the best world. I'm not sure it's even a good one.
 Here's the assumption hiding inside the dream: that problems are a bug. A temporary condition we're trying to exit, like a loading screen before the real thing starts. Get smart enough, capable enough, rich enough, and you arrive somewhere final, where paradise is defined by what's missing from it.
 
 But problems aren't the loading screen. They're the game.
+
+<!-- [PULL-QUOTE]: promote the line above to a styled pull-quote block here. -->
+<!-- [IMAGE · optional]: a conceptual visual of "problems as terrain, not obstacle."
+     A quiet beat before the Deutsch idea. Skip if it feels like clutter. -->
 
 David Deutsch has a line I keep returning to: *problems are inevitable, and problems are soluble.* Both halves matter, and they matter together. Every problem we solve creates the conditions for new problems we couldn't have seen before. Better ones, stranger ones, problems that only exist because we climbed high enough to face them. Agriculture solved hunger and handed us the problems of cities. The internet solved distance and handed us the problems of attention. You solve one and you don't reach the end. You reach a new frontier of things worth solving.
 
@@ -49,7 +57,16 @@ We're trained to solve. We're barely trained to *see*, to look at a messy situat
 
 In a world where machines do more and more of the solving, this becomes the most human thing left to do: deciding which problems deserve the attention, theirs and ours. Not the loudest problems, or the easiest to monetize, or the ones that flatter us. The right ones.
 
+<!-- [PULL-QUOTE]: "Meaning doesn't come from solving problems. It comes from having the right ones." -->
+<!-- [IMAGE · PRODUCT]: a real screenshot or clean mockup of Compass goes here.
+     A genuine screenshot earns far more clicks than stock art, and it visually
+     justifies the mention that follows. This is the product moment. -->
+
 This is, honestly, why I've been building Compass. It's a tool meant to help people get their bearings on which problems are actually worth their attention, not just move faster through the ones already in front of them. I keep being pulled toward that, because I think finding the right problem is where the meaning is hiding, and it's the part that doesn't get automated away.
+
+<!-- [BUTTON · secondary]: "Try Compass" → https://tools.panoskokmotos.com/compass/
+     Keep it visually smaller than the Subscribe button at the end so it doesn't
+     compete with the primary goal (subscribers). -->
 
 So no. I don't want the utopia where the problems are over. I want the one where we've earned better problems than the ones we have now. Where the disease we're fighting is more interesting than the disease we cured. Where the frontier keeps moving because we keep reaching it.
 
@@ -60,3 +77,7 @@ It's the one that never runs out of the right ones.
 ---
 
 *If this is the kind of thing you think about too, subscribe. I'm working these ideas out in the open, one problem at a time. And if you disagree, even better: reply and tell me where I'm wrong.*
+
+<!-- [BUTTON · primary]: Substack Subscribe button here, the natural "you just
+     finished, now act" spot. Don't add one at the top; it interrupts the hook. -->
+

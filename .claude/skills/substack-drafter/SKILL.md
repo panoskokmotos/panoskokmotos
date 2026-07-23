@@ -100,6 +100,28 @@ Avoid the two things Substack's paste handles badly: **tables** (convert to a li
 or prose) and **footnotes** (inline them as parentheticals or "(see note)" lines,
 and flag any you couldn't preserve). Keep raw HTML out.
 
+## Images, buttons, and pull-quotes
+
+Substack reading is mostly on phones, so visual rhythm matters. Add placement
+markers directly in the body as HTML comments so Panos has a paste-and-fill
+checklist (the comments won't render if pasted, and are easy to delete). Don't
+overdo it: aim for roughly one image every 250–300 words.
+
+- `<!-- [IMAGE · HEADER]: ... -->` right below the paste line. The header/cover
+  image is set in Substack's own slot above the title, but note it here because it
+  drives the email preview and social share. Describe a fitting visual.
+- `<!-- [IMAGE · PRODUCT]: ... -->` wherever he references something he built. Push
+  for a real screenshot over stock art, it earns clicks and justifies the mention.
+- `<!-- [IMAGE · optional]: ... -->` for a mood beat between sections, marked
+  skippable so he doesn't feel obligated.
+- `<!-- [PULL-QUOTE]: <line> -->` at the spot where a flagged pull-quote line
+  appears, so he can promote it to a styled block in place.
+- `<!-- [BUTTON · primary]: Subscribe -->` at the very end, the "just finished, now
+  act" spot. Never put a subscribe button at the top; it interrupts the hook.
+- `<!-- [BUTTON · secondary]: <label> → <url> -->` for a product/CTA link inline
+  with its paragraph, kept visually smaller than Subscribe so it doesn't compete
+  with the primary goal (usually subscribers).
+
 ## Output format
 
 Produce the staged file with this exact layout so it's consistent and scannable:
