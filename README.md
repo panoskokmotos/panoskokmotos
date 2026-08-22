@@ -8,6 +8,16 @@
 
 ---
 
+## 🔔 Latest updates (Aug 22, 2026)
+
+- Task Management — UI refresh + CSV export (branch: [claude/personal-os-ui-ux-9f15gs](https://github.com/panoskokmotos/task-management/tree/claude/personal-os-ui-ux-9f15gs)). Mobile-first navigation improvements are live in the feature branch.
+- Personal Website — portfolio refresh and new case studies (branch: [claude/gracious-ramanujan-60calm](https://github.com/panoskokmotos/personal-website/tree/claude/gracious-ramanujan-60calm)).
+- Social Impact Tools — core improvements merged to main and app-global-impact feature work in [app-global-impact-wdqz4t](https://github.com/panoskokmotos/social-impact-tools/tree/claude/app-global-impact-wdqz4t).
+
+(If you'd like, I can open PRs for these branches with drafted release notes and changelogs.)
+
+---
+
 ## 🎯 What I Do
 
 I build **donation infrastructure** that scales nonprofit operations. My focus:
@@ -68,58 +78,25 @@ I build **donation infrastructure** that scales nonprofit operations. My focus:
 - **Live**: https://hobbies-match.app (Live since May 2026)
 - Tinder-for-interests app connecting people by 50+ hobbies
 - **Architecture**: React 18 + Tailwind CSS + Butterbase backend
-- **P0 Features**: Swipe mechanics, archetype reveal, real-time matching, in-app chat
-- **P1 Features**: 
-  - Avatar picker & magic link auth
-  - In-app ChatScreen with icebreakers
-  - Gamification badges (7 milestone badges)
-  - Web push notifications
-  - AI "Why We Match" explanations (Claude Sonnet)
-  - Discover filters with min-compat slider
-- **Recent**: P0+P1 complete, social signup flow, admirer mechanic
-- **Why**: Exploring how AI personalization + viral mechanics can build communities around authentic interests
 
 ### 🧠 **The Crucible – Epistemology Game**
 **Why it matters**: Building a game where you defend ideas against an AI interlocutor. Philosophy meets interactive entertainment.
 - **Status**: MVP complete
 - **Next.js 14** web app playing with Deutschian epistemology
-- Debate 4 rounds of real-world phenomena against Claude Sonnet AI
-- Final round scores: Explanatory Reach, Falsifiability, Resilience
-- 8 phenomena (stellar scintillation, Mpemba effect, Cambrian explosion, etc.)
 - SSE streaming API for live responses
-- **Why**: An exploration of how AI can make critical thinking tangible and fun
 
 ### 📖 **Being Genuinely Useful in an AI World – Interactive Ebook**
 **Why it matters**: Making sense of how to stay valuable as AI evolves. Educational content that's actually engaging.
 - **Live**: https://being-genuinely-useful.vercel.app
 - Interactive digital ebook with 10 chapters + 7 wisdom interstitials
-- **Design**: Book cover, part dividers, sticky sidebar navigation, scroll animations
-- **Content**: Infused with 12 great thinkers (Feynman, Popper, Goodhart, Hayek, Shannon, Ostrom, Hamming, Bush, Polanyi, etc.)
-- **Features**: 
-  - Audiobook & PDF generation
-  - Chapter navigation & key takeaways
-  - Shareable content cards
-  - Email course distribution
-  - Passive income strategy guide
-- **Why**: Helping builders and creators think clearly about adding real value in an AI-first world
-
-### 💼 **Givelink Documentation Hub**
-**Why it matters**: Developer experience matters. Clear docs = faster adoption = nonprofit scale.
-- Official integration guide for Givelink Donation Widget
-- Platform-specific guides (WordPress, Squarespace, Wix, custom)
-- Troubleshooting, best practices, mobile optimization
-- No-code setup for nonprofits
-- **Why**: Removing barriers to nonprofit access of modern donation infra
 
 ### 💰 **Admin Tools Suite**
-**Why it matters**: Internal tooling that scales operations.
 - **Admin Deliveries** – Operations management for donation fulfillment
 - **Admin Design** – Design system and component library
 - **Admin Products Page** – Product catalog and inventory UI
 
 ### 🌐 **Personal Website & Portfolio**
 **Live**: https://panoskokmotos.com
-Personal branding + case studies
 
 ---
 
@@ -130,12 +107,6 @@ I'm building three **interconnected** things:
 1. **Givelink** – Fixing nonprofit infrastructure (market impact)
 2. **Task Management OS** – Perfecting human productivity (personal research)
 3. **Polymath + Crucible + Being Genuinely Useful** – Exploring AI, meaning, and human value (intellectual exploration)
-
-Together, they represent:
-- **Product excellence** (shipping at speed)
-- **Technical depth** (500+ commits, full-stack)
-- **Creative vision** (games, ebooks, epistemology)
-- **First-principles thinking** (why things matter)
 
 ---
 
@@ -159,4 +130,4 @@ I'm always interested in connecting with builders in:
 
 ---
 
-**Last updated**: June 2026
+**Last updated**: 2026-08-22
