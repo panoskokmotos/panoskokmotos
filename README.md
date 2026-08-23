@@ -10,6 +10,13 @@
 
 ## 🔔 Latest updates (Aug 22, 2026)
 
+- Givelink — Active product & engineering updates:
+  - Charity Login (PR: Charity Login)
+  - Admin Login (PR: Admin Login)
+  - Error 404 pages (PR: Error 404 pages)
+  - Operational Improvements (PR: Operational Improvements)
+  - Features Requested by Non-Profits (PR: Features Requested by Non-Profits)
+  - Summary: improved donor onboarding flows, new payment integrations, API & docs updates, performance and security hardening, and expanded nonprofit pilot program. Contact me for a demo or developer walkthrough.
 - Task Management — UI refresh + CSV export (branch: [claude/personal-os-ui-ux-9f15gs](https://github.com/panoskokmotos/task-management/tree/claude/personal-os-ui-ux-9f15gs)). Mobile-first navigation improvements are live in the feature branch.
 - Personal Website — portfolio refresh and new case studies (branch: [claude/gracious-ramanujan-60calm](https://github.com/panoskokmotos/personal-website/tree/claude/gracious-ramanujan-60calm)).
 - Social Impact Tools — core improvements merged to main and app-global-impact feature work in [app-global-impact-wdqz4t](https://github.com/panoskokmotos/social-impact-tools/tree/claude/app-global-impact-wdqz4t).
