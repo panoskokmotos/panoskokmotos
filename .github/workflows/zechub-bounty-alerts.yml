@@ -1,0 +1,27 @@
+name: ZecHub bounty alerts
+
+on:
+  schedule:
+    # ZecHub usually posts new bounties on Mondays: check every 3 hours (UTC) on Monday,
+    # then once on Tuesday morning to catch late posts.
+    - cron: "0 */3 * * 1"
+    - cron: "0 7 * * 2"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: zechub-bounty-alerts
+  cancel-in-progress: false
+
+jobs:
+  alerts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Open an issue for each new claimable bounty
+        run: python3 scripts/zechub_bounty_alerts.py
+        env:
+          GH_TOKEN: ${{ github.token }}
