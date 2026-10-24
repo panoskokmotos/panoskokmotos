@@ -52,7 +52,30 @@ I build **donation infrastructure** that scales nonprofit operations. My focus:
 **Why it matters**: Nonprofits need goods as much as cash. On Givelink, donors buy real items from a charity's wishlist, and we deliver them to the charity.
 - **Live**: https://givelink.app, with nonprofits in Greece and the US
 - Charity onboarding, wishlists, donor checkout, and fulfillment through supplier partners
-- Internal ops tools: [Admin Deliveries](https://github.com/panoskokmotos/admin-deliveries), [Admin Products Page](https://github.com/panoskokmotos/admin-products-page), [Admin Design](https://github.com/panoskokmotos/admin-design)
+- 67 pull requests merged into Givelink's production codebase since June 2026 (TypeScript, Next.js, React)
+
+**What I've shipped**
+
+*For nonprofits*
+- Wishlist tools: duplicate a wishlist into a new draft, filter products by supplier, sort by most requested and most donated
+- Donor details export to CSV, including which wishlist each gift came from
+- Download and share delivery photos from the dashboard
+- A smoother onboarding: redesigned login, fixed address autofill, clear messages naming every missing field, and onboarding emails
+
+*For donors*
+- Share the delivery photo straight from a completed donation, and zoom into delivery photos
+- Charity logo on in-kind donation receipts, and share cards designed for each charity instead of one static image
+- Greek donor names transliterated for readers in other languages
+
+*Growth and discoverability*
+- Made 200+ nonprofit pages and the blog readable by Google and AI assistants: structured data, FAQ markup, sitemap, `llms.txt`
+- New SEO landing pages, a filterable blog index, press and podcast mentions on the US homepage, and an easier path to self-sign-up
+
+*Data and operations*
+- PostHog tracking across the donor site, the nonprofit dashboard and the backend, plus an analysis API for charity data
+- Admin tooling: charity table sorting, filters and status counts, purchase-order sheets in the delivery export, Slack alerts
+
+*Internal ops tools (public repos)*: [Admin Deliveries](https://github.com/panoskokmotos/admin-deliveries), [Admin Products Page](https://github.com/panoskokmotos/admin-products-page), [Admin Design](https://github.com/panoskokmotos/admin-design)
 
 ---
 
