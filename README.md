@@ -58,9 +58,11 @@ I build **donation infrastructure** that scales nonprofit operations. My focus:
 
 ## 🧪 Side projects
 
+- **[Verified Delivery Copilot](https://verified-delivery-copilot.vercel.app)** ([code](https://github.com/panoskokmotos/verified-delivery-copilot)): an AI agent that checks nonprofit delivery photos before donors see them. It flags AI-generated images, checks that every donated item is in the photo, and screens wishlist products against US and EU recall databases. Built for the Nebius x NVIDIA Global AI Hackathon on Nemotron. TypeScript.
+- **[AI for Social Impact tools](https://tools.panoskokmotos.com)** ([code](https://github.com/panoskokmotos/social-impact-tools)): free AI tools for people working on social problems, running on Claude through a Cloudflare Worker. Includes [Impact Compass](https://tools.panoskokmotos.com/compass/), an installable PWA covering 25 world problems with sourced figures and evidence ratings, in English and Greek.
 - **[Task Management OS](https://github.com/panoskokmotos/task-management)**: my offline-first personal operating system. Vanilla JS PWA with Supabase sync, a ⌘K command palette, AI daily picks, OKRs and a North Star pace tracker.
 - **[Polymath](https://hobbies-match.app)**: matches people by 50+ hobbies. React 18, Tailwind, Butterbase. Live since May 2026.
-- **The Crucible**: a game where you defend an idea against an AI interlocutor, built on Deutschian epistemology. Next.js 14 with SSE streaming, MVP complete.
+- **[The Crucible](https://beginning-of-infinity-game.vercel.app)** ([code](https://github.com/panoskokmotos/Beginning-of-Infinity-game)): a game where you defend an idea against an AI interlocutor, built on Deutschian epistemology. Next.js 14 with SSE streaming, MVP complete.
 - **[Being Genuinely Useful in an AI World](https://being-genuinely-useful.vercel.app)**: an interactive ebook, 10 chapters.
 - **[Personal website](https://panoskokmotos.com)**
 
@@ -68,7 +70,7 @@ I build **donation infrastructure** that scales nonprofit operations. My focus:
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=panoskokmotos&show_icons=true&theme=transparent&hide_border=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=panoskokmotos&show_icons=true&theme=transparent&hide_border=true&hide_rank=true)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=panoskokmotos&layout=compact&theme=transparent&hide_border=true)
 
 ---
