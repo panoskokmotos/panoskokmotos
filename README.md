@@ -21,7 +21,6 @@ I build **donation infrastructure** that scales nonprofit operations. My focus:
 - **Product**: Shipping fast iterations driven by user interviews & analytics
 - **Operations**: Turning chaos into repeatable, scalable workflows ⚙️
 - **Automation-First**: Using n8n, internal tools, and dashboards to eliminate manual work
-- **AI in Practice**: Implementing IRIS for smart recommendations and internal decision support 🤖
 - **Exploration & Learning**: Building educational tools and epistemology games exploring how knowledge works
 
 **How I work**: Talk to users → Ship → Measure → Iterate.
@@ -75,7 +74,7 @@ I build **donation infrastructure** that scales nonprofit operations. My focus:
 - PostHog tracking across the donor site, the nonprofit dashboard and the backend, plus an analysis API for charity data
 - Admin tooling: charity table sorting, filters and status counts, purchase-order sheets in the delivery export, Slack alerts
 
-*Internal ops tools (public repos)*: [Admin Deliveries](https://github.com/panoskokmotos/admin-deliveries), [Admin Products Page](https://github.com/panoskokmotos/admin-products-page), [Admin Design](https://github.com/panoskokmotos/admin-design)
+*Internal tool (public repo)*: [Admin Products Page](https://github.com/panoskokmotos/admin-products-page), the catalog table the ops team uses for pricing, markup and stock limits
 
 ---
 
@@ -88,6 +87,14 @@ I build **donation infrastructure** that scales nonprofit operations. My focus:
 - **[The Crucible](https://beginning-of-infinity-game.vercel.app)** ([code](https://github.com/panoskokmotos/Beginning-of-Infinity-game)): a game where you defend an idea against an AI interlocutor, built on Deutschian epistemology. Next.js 14 with SSE streaming, MVP complete.
 - **[Being Genuinely Useful in an AI World](https://being-genuinely-useful.vercel.app)**: an interactive ebook, 10 chapters.
 - **[Personal website](https://panoskokmotos.com)**
+
+---
+
+## 🌍 Open source
+
+**[ZecHub](https://zechub.org)**, the community education hub for Zcash:
+- [Greek glossary and menu review](https://github.com/ZecHub/zechub/pull/2489), stage 1 of the Translation Quality bounty (merged)
+- [NU7 upgrade details in the Zcash Library](https://github.com/ZecHub/zechub/pull/2438) (merged)
 
 ---
 
