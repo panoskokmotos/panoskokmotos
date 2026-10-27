@@ -95,6 +95,8 @@ I build **donation infrastructure** that scales nonprofit operations. My focus:
 **[ZecHub](https://zechub.org)**, the community education hub for Zcash:
 - [Greek glossary and menu review](https://github.com/ZecHub/zechub/pull/2489), stage 1 of the Translation Quality bounty (merged)
 - [NU7 upgrade details in the Zcash Library](https://github.com/ZecHub/zechub/pull/2438) (merged)
+- [Greek follow-up menu review](https://github.com/ZecHub/zechub/pull/2508), stage 2 of the Translation Quality bounty (merged)
+- [Use-case page: accepting private ZEC donations as a US nonprofit](https://github.com/ZecHub/zechub/pull/2481) (merged)
 
 ---
 
