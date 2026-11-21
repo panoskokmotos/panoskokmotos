@@ -101,6 +101,8 @@ I build **donation infrastructure** that scales nonprofit operations. My focus:
 - [Use-case page: where to donate ZEC](https://github.com/ZecHub/zechub/pull/2535) (merged)
 - [Use-case page: donate ZEC and claim a US tax deduction](https://github.com/ZecHub/zechub/pull/2545) (merged)
 - [Use-case page: run a ZEC fundraising campaign](https://github.com/ZecHub/zechub/pull/2547) (merged)
+- [Start Here: Development Fund page rewrite](https://github.com/ZecHub/zechub/pull/2688), history, today's split and how to get funded (merged)
+- [Governance page updated for NU6.1 and ZIP 1016](https://github.com/ZecHub/zechub/pull/2689) (merged)
 
 ---
 
